@@ -1,0 +1,19 @@
+<div class="slider-wrapper">
+
+	<ul id="slider">
+		<li ng-repeat="event in events | limitTo:3">
+			<div class="sl-slide-inner">
+				<h2><span>{{showWeek(event.DIA)}}</span> <small>{{event.DIA}}</small></h2>
+				<div class="wrapper-local">
+					<p ng-repeat="local in event.LOCATION_OBJ"><strong> {{local.HORA}}h</strong> <a ng-href="{{local.LOCATION_MAP}}" target="_blank">{{local.LUGAR}}</a></p>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<nav id="nav-arrows" class="nav-arrows">
+		<span class="nav-arrow-prev" id="prevEvent">Previous</span>
+		<span class="nav-arrow-next" id="nextEvent">Next</span>
+	</nav>
+
+</div><!-- /slider-wrapper -->

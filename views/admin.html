@@ -1,0 +1,25 @@
+<form action="views/save.php" method="post" accept-charset="utf-8" class="form" id="admin_form">
+	<p class="descr-pattern">Cadastro de um novo dia</p>
+	<input type="text" placeholder="Data" maxlength="100" name="day_event" required class="input-date">
+	<div class="group-form">
+		<p class="descr-pattern">Local 1</p>
+		<input type="text" placeholder="Horário" maxlength="100" name="hour1" class="input-sm input-hour" required>
+		<input type="text" placeholder="Nome do Local" maxlength="100" name="local1" class="input-lg" required>
+		<input type="url" placeholder="Link Mapa" maxlength="100" name="location_map1" class="input-lg" required>
+	</div>
+	<div class="group-form">
+		<p class="descr-pattern">Local 2</p>
+		<input type="text" placeholder="Horário" maxlength="100" name="hour2" class="input-sm input-hour">
+		<input type="text" placeholder="Nome do Local" maxlength="100" name="local2" class="input-lg">
+		<input type="url" placeholder="Link Mapa" maxlength="100" name="location_map2" class="input-lg">
+	</div>
+	<div class="group-form">
+		<p class="descr-pattern">Local 3</p>
+		<input type="text" placeholder="Horário" maxlength="100" name="hour3" class="input-sm input-hour">
+		<input type="text" placeholder="Nome do Local" maxlength="100" name="local3" class="input-lg">
+		<input type="url" placeholder="Link Mapa" maxlength="100" name="location_map3" class="input-lg">
+	</div>
+
+	<button type="submit" class="btn-submit">Inserir</button>
+	<div class="msg-form"></div>
+</form>

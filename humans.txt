@@ -1,0 +1,16 @@
+/* TEAM */
+  Designer: Fernando Monteiro 
+  E-mail:  fmonteiro@gmail.com
+
+  Front-end: Jéssica Westphal 
+  E-mail:  contact@jessicawestphal.com
+
+  Back-end: Bruno Leandro
+  E-mail:  brunoleandrodelima@gmail.com
+
+
+/* SITE */
+  Last update: 2016/10/01
+  Language: Portuguese
+  Doctype: PHP, AngularJs, HTML5 + CSS3, JavaScript
+  IDE: Sublime Text, Photoshop
